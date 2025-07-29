@@ -1,0 +1,33 @@
+{
+  "name": "metamask-delegation-toolkit-demo",
+  "version": "1.0.0",
+  "description": "Demo project showcasing MetaMask EIP-7702 delegation features",
+  "main": "index.js",
+  "scripts": {
+    "node": "hardhat node",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "test": "hardhat test",
+    "dev": "cd frontend && npm run dev",
+    "setup": "npm install && cd frontend && npm install"
+  },
+  "keywords": [
+    "metamask",
+    "eip-7702",
+    "delegation",
+    "smart-accounts",
+    "ethereum",
+    "hardhat",
+    "react"
+  ],
+  "author": "MetaMask Delegation Demo",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.4"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1",
+    "ethers": "^6.9.0"
+  }
+}
